@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Newapp from './newapp.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Newapp newapp1="karachi" />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
